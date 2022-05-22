@@ -99,7 +99,8 @@ nav{
 
 .navLogo{
     font-size: 22px;
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-weight: bold;
     word-break: keep-all;
 }
 
@@ -151,7 +152,8 @@ nav{
     font-size: 14px;
     border-radius: 0 5px 5px 0; 
     color: rgb(50, 50, 55); 
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-weight: bold;
 }
 
 .searchButton:hover{
@@ -335,13 +337,11 @@ main{
 }
 
 .mainControlSection p{
-
-    
-
     font-size: 20px;
     padding: 10px;
     color: rgb(59, 110, 192);
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-weight: bold;
 }
 
 
@@ -352,13 +352,15 @@ main{
 
 .alfabet tr td{
     font-size: 25px;
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-weight: bold;
     padding-inline: 10px;
 }
 
 .alfabet tr th{
     font-size: 25px;
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-weight: bold;
 }
 
 .alfabet{
@@ -378,7 +380,8 @@ ol li{
 }
 
 .bold{
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-weight: bold;
 }
 
 @media screen and (max-width: 1000px){
