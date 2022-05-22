@@ -21,7 +21,7 @@ body{
     background-size: 30em;
 }
 
-header,footer{
+тфи,footer{
     height: 100px;
     flex: 0 1 auto;
     /* background-color: rgb(92, 92, 227); */
@@ -400,7 +400,10 @@ ol li{
         padding: 5px 0px;
         /* margin-left: 10%; */
     }
-
+    .navBut{
+        font-size: 25px;
+        font-weight: bold;
+    }
     .navItem{
         padding: 5px;
     }
