@@ -21,7 +21,8 @@ body{
     background-size: 30em;
 }
 
-тфи,footer{
+/* nav,footer{ */
+footer{
     height: 100px;
     flex: 0 1 auto;
     /* background-color: rgb(92, 92, 227); */
@@ -74,7 +75,7 @@ main{
 
     font-size: 20px;
     font-weight: 600; */
-    min-height: 65px;
+    min-height: 100px;
     display: flex;
     justify-content: space-between;
 
@@ -105,6 +106,11 @@ nav{
 }
 
 .navItem {
+    padding: 10px 20px;
+    font-size: 20px;
+    list-style: none;
+}
+.navItem1 {
     padding: 10px 20px;
     font-size: 20px;
     list-style: none;
@@ -469,5 +475,17 @@ ol li{
         height: min-content;
         border-bottom: 0px;
         border-width: 0px; 
+    }
+}
+
+@media screen and (max-width: 630px){
+    .footer-2{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .searchInput{
+        width: 125px;
     }
 }
