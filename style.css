@@ -482,10 +482,25 @@ ol li{
     .footer-2{
         font-size: 22px;
     }
+    .searchInput{
+        width: 120px;
+    }
 }
 
 @media screen and (max-width: 575px){
     .searchInput{
-        width: 125px;
+        width: 80px;
+    }
+    .footer-1{
+        font-size: 12px;
+    }
+    .footer-2{
+        font-size: 18px;
+    }
+    .footer-3{
+        font-size: 12px;
+    }
+    footer{
+        padding-inline: 1em;
     }
 }
